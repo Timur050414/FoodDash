@@ -30,7 +30,7 @@
     <nav class="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
         <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-6">
 
-            <a href="#" class="flex items-center gap-2 text-xl font-black text-orange-500 shrink-0">
+            <a href="./index.html" class="flex items-center gap-2 text-xl font-black text-orange-500 shrink-0">
                 🍔 FoodDash
             </a>
 
@@ -205,13 +205,13 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
-                <article
-                    class="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1 cursor-pointer">
+                <a href="./dish.html"
+                    class="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1 block">
+
                     <div
                         class="relative h-40 bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center overflow-hidden">
                         <span class="text-6xl group-hover:scale-110 transition-transform duration-300">🍔</span>
-                        <span
-                            class="absolute top-3 left-3 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+                        <span class="absolute top-3 left-3 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full">
                             Топ
                         </span>
                         <span
@@ -219,18 +219,24 @@
                             15-25 хв
                         </span>
                     </div>
+                
                     <div class="p-4">
                         <div class="flex items-start justify-between mb-1">
-                            <h3 class="font-bold text-gray-900">Burger Brothers</h3>
+                            <h3 class="font-bold text-gray-900 group-hover:text-red-500 transition-colors">Burger Brothers</h3>
                             <span class="text-sm font-bold text-orange-500">⭐ 4.8</span>
                         </div>
                         <p class="text-xs text-gray-500 mb-3">Американська • Фастфуд</p>
-                        <div class="flex items-center justify-between text-xs text-gray-400">
+                        <div class="flex items-center justify-between text-xs text-gray-400 mb-2">
                             <span>Від 150 ₴</span>
                             <span class="text-green-600 font-medium">Безкоштовно</span>
                         </div>
+
+                        <div
+                            class="text-red-500 font-bold text-sm pt-2 border-t border-gray-50 flex items-center gap-1 group-hover:gap-2 transition-all">
+                            Детальніше <span>→</span>
+                        </div>
                     </div>
-                </article>
+                </a>
 
                 <article
                     class="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1 cursor-pointer">
@@ -392,24 +398,26 @@
     <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
-    
+
                 <div>
                     <div class="text-xl font-black text-orange-400 mb-3">🍔 FoodDash</div>
                     <p class="text-gray-400 text-sm leading-relaxed">
                         Найшвидша доставка їжі у Києві.
                     </p>
                 </div>
-    
+
                 <div>
                     <h6 class="font-bold text-xs uppercase tracking-wider text-gray-500 mb-4">Компанія</h6>
-                    
+
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Про нас</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Кар'єра</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Про нас</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Кар'єра</a>
+                        </li>
                         <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Блог</a></li>
                     </ul>
                 </div>
-    
+
                 <div>
                     <h6 class="font-bold text-xs uppercase tracking-wider text-gray-500 mb-4">Контакти</h6>
                     <ul class="space-y-2 text-sm text-gray-400">
@@ -417,10 +425,10 @@
                         <li>📱 0800 123 456</li>
                     </ul>
                 </div>
-    
+
             </div>
-    
-            
+
+
             <div class="border-t border-gray-800 pt-6
           flex flex-col sm:flex-row items-center justify-between gap-3">
                 <p class="text-sm text-gray-500">© 2025 FoodDash. Всі права захищені.</p>
